@@ -37,7 +37,6 @@
 		4F90D7F72B3C687000F260E9 = {
 			isa = PBXGroup;
 			children = (
-				4F5603682B3C9E8E009AE40B /* TestView.swift */,
 				4F90D8032B3C687000F260E9 /* HelloWorldSDK */,
 				4F90D8022B3C687000F260E9 /* Products */,
 			);
@@ -54,6 +53,7 @@
 		4F90D8032B3C687000F260E9 /* HelloWorldSDK */ = {
 			isa = PBXGroup;
 			children = (
+				4F5603682B3C9E8E009AE40B /* TestView.swift */,
 				4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */,
 				4F56035E2B3C970F009AE40B /* WebView.swift */,
 				4F5603622B3C97CF009AE40B /* ContentView.swift */,
