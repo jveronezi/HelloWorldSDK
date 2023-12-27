@@ -7,10 +7,10 @@
 import Foundation
 import SwiftUI
 
-struct ContentView: View {
+public struct ContentView: View {
     @State private var isPresentWebView = false
 
-    var body: some View {
+    public var body: some View {
         Button("Open WebView") {
             isPresentWebView = true
 
