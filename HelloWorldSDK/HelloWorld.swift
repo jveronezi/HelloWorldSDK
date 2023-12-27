@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import WebKit
 
 public class MainHelloWorld {
     public init() {}

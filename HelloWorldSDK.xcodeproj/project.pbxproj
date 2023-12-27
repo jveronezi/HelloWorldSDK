@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F56035F2B3C970F009AE40B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F56035E2B3C970F009AE40B /* WebView.swift */; };
+		4F5603632B3C97CF009AE40B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5603622B3C97CF009AE40B /* ContentView.swift */; };
 		4F90D80C2B3C68FF00F260E9 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F56035E2B3C970F009AE40B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		4F5603622B3C97CF009AE40B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F90D8012B3C687000F260E9 /* HelloWorldSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloWorldSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,6 +50,8 @@
 			isa = PBXGroup;
 			children = (
 				4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */,
+				4F56035E2B3C970F009AE40B /* WebView.swift */,
+				4F5603622B3C97CF009AE40B /* ContentView.swift */,
 			);
 			path = HelloWorldSDK;
 			sourceTree = "<group>";
@@ -130,6 +136,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F90D80C2B3C68FF00F260E9 /* HelloWorld.swift in Sources */,
+				4F56035F2B3C970F009AE40B /* WebView.swift in Sources */,
+				4F5603632B3C97CF009AE40B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
