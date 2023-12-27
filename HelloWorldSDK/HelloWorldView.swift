@@ -8,7 +8,7 @@
 import SwiftUI
 
 public struct HelloWorldView: View {
-    public init() {}
+    init() {}
     
     @State private var isPresentWebView = false
 
