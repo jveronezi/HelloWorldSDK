@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4F90D8052B3C687000F260E9 /* HelloWorldSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F90D8042B3C687000F260E9 /* HelloWorldSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F90D80C2B3C68FF00F260E9 /* HelloWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F90D8012B3C687000F260E9 /* HelloWorldSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HelloWorldSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F90D8042B3C687000F260E9 /* HelloWorldSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldSDK.h; sourceTree = "<group>"; };
+		4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorld.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 		4F90D8032B3C687000F260E9 /* HelloWorldSDK */ = {
 			isa = PBXGroup;
 			children = (
-				4F90D8042B3C687000F260E9 /* HelloWorldSDK.h */,
+				4F90D80B2B3C68FF00F260E9 /* HelloWorld.swift */,
 			);
 			path = HelloWorldSDK;
 			sourceTree = "<group>";
@@ -57,7 +57,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F90D8052B3C687000F260E9 /* HelloWorldSDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +92,7 @@
 				TargetAttributes = {
 					4F90D8002B3C687000F260E9 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 				};
 			};
@@ -129,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F90D80C2B3C68FF00F260E9 /* HelloWorld.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +261,7 @@
 		4F90D8092B3C687000F260E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -279,6 +281,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,6 +290,7 @@
 		4F90D80A2B3C687000F260E9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
