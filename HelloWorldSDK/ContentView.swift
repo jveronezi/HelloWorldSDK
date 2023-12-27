@@ -8,6 +8,8 @@ import Foundation
 import SwiftUI
 
 public struct ContentView: View {
+    public init() {}
+    
     @State private var isPresentWebView = false
 
     public var body: some View {
