@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.name         = "HelloWorldSDK"
   spec.version      = "0.1.0"
   spec.summary      = "A short description of HelloWorldSDK."
-  spec.description  = "Descroption of HelloWorldSDK."
+  spec.description  = "Description of HelloWorldSDK."
   spec.homepage     = "https://github.com/jveronezi/HelloWorldSDK"
   spec.license      = { type: "No License" }
   spec.author       = { "jveronezi" => "jveronezi@fullstacklabs.co" }
